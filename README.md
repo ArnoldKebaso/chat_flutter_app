@@ -3,6 +3,10 @@ This is the repository for the LinkedIn Learning course `Learning Flutter: Build
 
 ChatWave is a production‑ready, cross‑platform chat application built with Flutter and Firebase (Firestore, Authentication, Cloud Functions, Storage, and FCM). It supports Android, iOS, Web, Windows, macOS, and Linux from a single code base, following a clean MVVM + Repository architecture with Riverpod for state management.
 
+
+ChatWave is a production‑ready, cross‑platform chat application built with Flutter and Firebase (Firestore, Authentication, Cloud Functions, Storage, and FCM). It supports Android, iOS, Web, Windows, macOS, and Linux from a single code base, following a clean MVVM + Repository architecture with Riverpod for state management.
+
+
 Table of Contents
 
 Demo
