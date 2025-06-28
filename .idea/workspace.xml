@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a599285-c859-4b88-85b3-3f20de908ac4" name="Changes" comment="" />
+    <list default="true" id="2a599285-c859-4b88-85b3-3f20de908ac4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chat_app/lib/core/app_router.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat_app/lib/core/service_locator.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat_app/lib/models/message_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat_app/lib/models/user_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/chat_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chat_app/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ArnoldKebaso"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ArnoldKebaso&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/LinkedInLearning/learning-flutter-3009709.git",
+    "url": "https://github.com/ArnoldKebaso/chat_flutter_app.git",
     "accountId": "62db9e46-4336-4b72-8081-5773f1099319"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2yzwVZYKi1qYStTA6hl5fbb4G9z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,7 +55,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/apps/linked_in_learning/chat_app",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/apps/chat_app/chat_flutter_app",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
