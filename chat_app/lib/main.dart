@@ -1,51 +1,21 @@
+import 'package:chat_app/chat_page.dart';
+import 'package:chat_app/login_page.dart';
 import 'package:flutter/material.dart';
-// import 'package:firebase_core/firebase_core.dart';
-// import 'package:provider/provider.dart';
-// import 'core/service_locator.dart';
-// import 'core/app_router.dart';
-// import 'services/auth_service.dart';
-//
-// Future<void> main() async {
-//   WidgetsFlutterBinding.ensureInitialized();
-//   await Firebase.initializeApp();
-//   setupServiceLocator();     // registers AuthService, ChatService, etc.
-//
-//   runApp(const ChatApp());
-// }
-//
-class ChatApp extends StatelessWidget {
-  const ChatApp({super.key});
 
+void main() {
+  runApp(ChatApp());
+}
+
+class ChatApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Chat App'),
-      ),
-      body: Center(
-        child: Text(
-          'Welcome to the Chat App!',
-          style: TextStyle(fontSize: 100, color: Colors.blueAccent),
-        ),
-      ),
+    return MaterialApp(
+      title: "Chat App",
+      theme: ThemeData(
+          primarySwatch: Colors.deepPurple,
+          appBarTheme: AppBarTheme(
+              backgroundColor: Colors.blue, foregroundColor: Colors.black)),
+      home: LoginPage(),
     );
   }
-  }
-//       providers: [
-//         ChangeNotifierProvider<AuthService>(
-//           create: (_) => getIt<AuthService>()..checkAuth(),
-//         ),
-//         // Add other ChangeNotifierProviders if you prefer Provider
-//       ],
-//       child: MaterialApp.router(
-//         title: 'Chat App',
-//         debugShowCheckedModeBanner: false,
-//         theme: ThemeData(
-//           colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
-//           useMaterial3: true,
-//         ),
-//         routerConfig: AppRouter.router,   // go_router-powered routing
-//       ),
-//     );
-//   }
-// }
+}
