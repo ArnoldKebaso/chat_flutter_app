@@ -1,0 +1,2 @@
+C:/Users/Admin/Desktop/apps/chat_app/chat_flutter_app/chat_app/android/app/.cxx/Debug/3r1w2m1u/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Admin/Desktop/apps/chat_app/chat_flutter_app/chat_app/android/app/.cxx/Debug/3r1w2m1u/armeabi-v7a/CMakeFiles/rebuild_cache.dir
