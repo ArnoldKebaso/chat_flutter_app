@@ -40,6 +40,8 @@ Credits
 Demo
 
 Android
+Kotlin 
+
 
 iOS
 
